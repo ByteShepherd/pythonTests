@@ -5,3 +5,5 @@
 /.vs
 /TheCompiler/Compiler.Lexical/.vs/Compiler.Lexical/FileContentIndex
 /TheCompiler/Compiler.Lexical/obj
+/InterpreterInCSharp/Intepreter.Lexical/Intepreter.Lexical/obj
+/InterpreterInCSharp/Intepreter.Lexical/.vs/Intepreter.Lexical/FileContentIndex
