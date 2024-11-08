@@ -17,6 +17,15 @@ spec:
         image: tuschinski/flask-on-k8s:latest
         ports:
         - containerPort: 5000
+        env:
+          - name: POD_NAME
+            valueFrom:
+              fieldRef:
+                fieldPath: metadata.name
+          - name: POD_IP
+            valueFrom:
+              fieldRef:
+                fieldPath: status.podIP
 ---
 apiVersion: v1
 kind: Service
