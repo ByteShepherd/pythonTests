@@ -3,3 +3,5 @@
 ################################################################################
 
 /.vs
+/TheCompiler/Compiler.Lexical/.vs/Compiler.Lexical/FileContentIndex
+/TheCompiler/Compiler.Lexical/obj
